@@ -1,0 +1,10 @@
+.header__main-text {
+    width: 50%;
+}
+
+
+@media (max-width: 425px) {
+  .header__main-text {
+    width: 100%;
+  }
+}

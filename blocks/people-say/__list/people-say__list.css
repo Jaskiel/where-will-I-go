@@ -1,0 +1,28 @@
+.people-say__list {
+  list-style-type: none;
+  padding: 130px 0 0 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .people-say__list {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .people-say__list {
+    display: block;
+    padding: 100px 0 0 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .people-say__list {
+    display: block;
+    padding: 28px 0 0 0;
+  }
+}

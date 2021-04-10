@@ -1,0 +1,12 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+  }
+
+
+  @media (max-width: 425px) {
+    .menu {
+      width: 100%;
+    }
+  }
