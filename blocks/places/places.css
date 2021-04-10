@@ -13,14 +13,14 @@
 @media (max-width: 1024px) {
   .places {
     padding-top: 75px;
-    grid-template-rows: repeat(3, 500px);
+    grid-template-rows: repeat(3, minmax(580px, 620px));
   }
 }
 
 @media (max-width: 768px) {
   .places {
     padding-top: 75px;
-    grid-template-rows: repeat(3, minmax(500px, 750px));
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
   }
 }
 
@@ -28,7 +28,7 @@
   .places {
     padding-top: 75px;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, minmax(480px, 650px));
+    grid-template-rows: repeat(6, minmax(400px, max-content));
     grid-template-areas:
     "forest_text"
     "forest_image"

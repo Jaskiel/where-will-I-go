@@ -5,3 +5,9 @@
   margin: 0;
   margin-bottom: 32px;
 }
+
+@media (max-width: 768px) {
+  .people-say__quote {
+    max-width: 460px;
+  }
+}

@@ -1,0 +1,16 @@
+.intro {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 85px;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

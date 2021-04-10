@@ -10,8 +10,6 @@
 
 @import url(../blocks/menu/menu.css);
 
-@import url(../blocks/places/places.css);
-
 @import url(../blocks/menu/__items/menu__items.css);
 
 @import url(../blocks/menu/__item/menu__item.css);
@@ -20,13 +18,28 @@
 
 @import url(../blocks/menu/__complaint/menu__complaint.css);
 
+@import url(../blocks/intro/intro.css);
+
+@import url(../blocks/intro/__text-zone/intro__text-zone.css);
+
+@import url(../blocks/intro/__title/intro__title.css);
+
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+
+@import url(../blocks/intro/__wrapper/intro__wrapper.css);
+
+@import url(../blocks/intro/__image/intro__image.css);
+
+
+
+
+@import url(../blocks/places/places.css);
+
 @import url(../blocks/header/__place/header__place.css);
 
-@import url(../blocks/header/__intro/header__intro.css);
 
 @import url(../blocks/header/__main-text/header__main-text.css);
 
-@import url(../blocks/header/__intro-image/header__intro-image.css);
 
 @import url(../blocks/header/__title/header__title.css);
 

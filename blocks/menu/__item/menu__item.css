@@ -3,7 +3,12 @@
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
+  .menu__item {
+    margin-right: 20px;
+  }
+
+@media (max-width: 480px) {
   .menu__item {
     margin-bottom: 8px;
     margin-right: 0;

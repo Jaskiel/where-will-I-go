@@ -4,8 +4,9 @@
   font-size: 15px;
   font-weight: 700;
   line-height: 18px;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .menu__item-link:hover {
-  border-bottom: 1px solid #fed3b2;
+  opacity: 0.7;
 }

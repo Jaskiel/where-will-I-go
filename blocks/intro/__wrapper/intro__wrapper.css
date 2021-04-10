@@ -1,0 +1,23 @@
+.intro__wrapper {
+  max-width: 351px;
+  max-height: 351px;
+  width: 34%;
+  margin-left: 83px;
+  margin-right: 169px;
+}
+
+@media (max-width: 1024px) {
+  .intro__wrapper {
+    margin-left: 0;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro__wrapper {
+    margin: 0;
+    width: 97%;
+    max-width: 768px;
+    max-height: 768px;
+  }
+}
